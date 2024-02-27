@@ -43,7 +43,7 @@ function SmallCard() {
         </div>
 
   
-        <Button width={292} content={'View Deal'}/>
+<Button className={'w-[292px]'} content={'View Deal'}/>
     </div>
 
     </div>
