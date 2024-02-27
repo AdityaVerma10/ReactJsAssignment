@@ -59,7 +59,7 @@ function BigCard({
                 </div>
 
            
-                <Button width={232}
+               <Button className={'w-[232px]'}
                  content={'View'}/>
             </div>
         </div>
