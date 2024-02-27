@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  overflow-x: hidden;
+ 
+}
+@media (max-width:1000px) {
+  .smallcardbox{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signupbox{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .bigcardbox{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 700px;
+    gap: 1.5rem;
+  }
+  .BigcardImg{
+    width: 196px;
+    height: 130px;
+  }
+  .ratingbox{
+    gap:2rem;
+  }
+  .uniqueCardbox{
+    flex-direction: column;
+    width: 350px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+  }
+  .uniquecardImg{
+    width: 196px;
+    height: 130px;
+  }
+  .offerbox{
+    gap:1.5rem;
+  }
+}
+@media (min-width:1289px) {
+  .headingbox{
+    width: 1006px;
+  }
+}
+.menubtn{
+  display: none;
+}
+@media  (max-width:856px) {
+  .herosectionbox{
+    width:450px;
+  }
+  .headingbox{
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width:600px){
+  .navbox{
+    display: none;
+  }
+  .menubtn{
+    display: block;
+  }
+ 
+}
+
+@media (max-width:400px){
+  .navheadbox{
+    gap:0rem;
+  }
+}
+
+@media (min-width:550px) and (max-width:650px){
+  .footerbox{
+    gap:5rem;
+  }
+}
+
+
+@media (min-width:400px) and (max-width:550px){
+  .footerbox{
+    flex-direction: column;
+   
+    height: fit-content;
+    gap:2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width:200px) and (max-width:300px) {
+  main{
+    margin-left: 5rem;
+  }
+}
+.BestthingsBox{
+  width: 136px;
+  height: 34px;
+  top: 332px;
+  left: 278px;
+
+  background: #FF7724;
+  gap:1rem;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
+.BestthingsBox img{
+  width: 20px;
+  height: 20px;
+  margin-top:0.3rem;
+}
+.BestthingsBox span{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
