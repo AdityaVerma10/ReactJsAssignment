@@ -69,7 +69,7 @@ function UniqueCard() {
                 className='w-[66px] h-[11px] top-[435px] left-[1134px]' />
         </div>
 
-        <Button width={232} content={'View'}/>
+        <Button className={'w-[232px]'} content={'View'}/>
     </div>
 </div> )
 }
